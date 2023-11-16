@@ -25,7 +25,7 @@ Semen Matrenok <br>
 How strongly are these awards associated with cultural impact, as indicated by critics' and viewers' reviews?
 2. Are there specific genres or themes that tend to receive more recognition in prestigious awards despite their commercial success or lack thereof?
 3. How has the correlation between awards, commercial success, and cultural impact evolved over different decades or periods in the film industry?
-4. Is there a relationship between the characteristics of characters (age, gender, ethnicity) and the types of movies that receive awards or commercial success?
+4. Is there a relationship between the characteristics of characters (age, gender, ethnicity, tropes) and the types of movies that receive awards or commercial success?
 5. Do movies with intricate plot structures or non-linear narratives tend to receive more awards despite potential differences in commercial success?
 
 ## Supplementary Datasets
@@ -41,3 +41,4 @@ To score cultural impact, we have the possibility of using iMDB absolute ratings
 
 ## Methods
 
+### Step 1: Data Preprocessing
