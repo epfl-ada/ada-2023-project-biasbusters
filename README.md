@@ -10,7 +10,7 @@ Utilizing the CMU Movie Corpus Dataset, comprising of more than 40,000 plot summ
 Arundhati Balasubramaniam <br>
 Daniil Likhobaba <br>
 German Gavrilenko <br>
-Hans Kristian <br>
+Hans Kristian Bjørgo Kværum <br>
 Semen Matrenok <br>
 
 ## Table of Contents
@@ -47,7 +47,7 @@ To assess a movie's cultural impact, we consider utilizing either absolute ratin
 As our project will follow a typical data science structure with data processing, feature extraction, feature engineering and model tuning, this section will mainly focus on how we plan to address the proposed research questions through our analysis.
 
 ### Q1: Plot Characteristics of Critically Acclaimed vs. Popular Films
-After succesfully extracting relevant plot features from the movie summaries (using a fine-tuned Llama2 model), we would conduct a comparative analysis to explore similarity across features. Selecting movies based on their commercial and cultural rating, we could explore (genre-wise) how critically acclaimed movies differs from commercially focused ones.
+After succesfully extracting relevant plot features from the movie summaries (using an instruct tuned Llama 2 13B Chat model in zero- or few-shot learning manner), we would conduct a comparative analysis to explore similarity across features. Selecting movies based on their commercial and cultural rating, we could explore (genre-wise) how critically acclaimed movies differs from commercially focused ones.
 
 ### Q2: Plot Praise/Critique
 Using sentiment analysis and topic modelling, we could analyse what aspects of a movie (plot, characters, visuals) reviews are most frequently concerned about. This should indicate how important the plot is for viewer perception. 
@@ -59,7 +59,7 @@ Through our rating system, we could analyse the scores of winners and nominees a
 Building on the previous research question, we could analyse whether certain genres or prevalent movie themes are more prone to getting recognised by awards.
 
 ### Q5: Importance of Innovative Storytelling
-By using a similarity/distance metric (e.g: cosine similarity, euclidean distance) we could quantify the originality of a movie. As high-dimensional spaces require more data to achieve similar density as lower-dimensional spaces, we might consider limiting the amount of features and compute similarity genre-wise.
+We could incorporate few methods of mapping movies to some metric space in order to estimate their originality. We could use some advanced LLMs from [<strong>Massive Text Embedding Benchmark (MTEB) Leaderboard</strong>](https://huggingface.co/spaces/mteb/leaderboard) to obtain embeddings for plot summaries. These embeddings are trained to meet metric space properties. As for plots and movies features extracted in the previous steps we could use some dimensionality reduction methods such as PCA and t-SNE and estimate distance between objects by utilising euclidean distance. Another method of estimating movies originality could imply the usage of LLM (e.g., the previously mentioned Llama 13B Chat) in order to predict the ending of the movies stories and then obtaining an originality score by estimation of the distances between predicted endings and the genuin ones. The distance could be computed between the corresponding text embeddings.
 
 ### Q6: Character Diversity
 From the plot summaries, we can extract characters and their features (age, gender, ethnicity, tropes), and analyse whether certain characteristics are associated with successful movies.
