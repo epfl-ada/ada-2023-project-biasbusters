@@ -37,11 +37,11 @@ Semen Matrenok <br>
 Much of our intended analysis is dependent of data not present in the CMU Movie Corpus dataset. We therefore plan to incorporate external data sources to supplement the plot features.
 
 ### Commerical Metrics
-To create a score for commerical success, we will carefully choose variables that indicate how well a movie performed at the box office. These variables include box-office revenue, budget, ROI, and perhaps lifetime gross. As revenue is only available for ∼10% of the movies in CMU corpus, we plan to use  [<strong>The Movies Dataset</strong>](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) to access lifetime revenue and budget values for some movies.
+To create a score for commerical success, we will carefully choose variables that indicate how well a movie performed at the box office. These variables include box-office revenue, budget, ROI, and perhaps lifetime gross. As revenue is only available for ∼10% of the movies in CMU corpus, we plan to use  [<strong>The Movies Dataset</strong>](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) to access lifetime revenue and budget values for broader amount of movies.
 
 ## Cultural Metrics
-To assess a movie's cultural impact, we consider utilizing either absolute ratings from IMDb or sentiment analysis/polarity of movie reviews. This approach recognizes that significant cultural impact is not solely tied to positive acclaim but can also stem from controversial or polarizing content. To gather the necessary data, we will access the [<strong>IMDb Movie Reviews</strong>](https://paperswithcode.com/dataset/imdb-movie-reviews) by Andrew L. Maas and [<strong>IMDB Movie Ratings Dataset
-</strong>](https://www.kaggle.com/datasets/thedevastator/imdb-movie-ratings-dataset) by 'The Devastator'.
+To assess a movie's cultural impact, we consider utilizing either absolute ratings from IMDb or sentiment analysis/polarity of movie reviews. This approach recognizes that significant cultural impact is not solely tied to positive acclaim but can also stem from controversial or polarizing content. To gather the necessary data, we will access the [<strong>IMDB Dataset of 50K Movie Reviews</strong>](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) and [<strong>MovieLens 20M Dataset
+</strong>](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset?select=rating.csv).
 
 ## Methodology
 As our project will follow a typical data science structure with data processing, feature extraction, feature engineering and model tuning, this section will mainly focus on how we plan to address the proposed research questions through our analysis.
