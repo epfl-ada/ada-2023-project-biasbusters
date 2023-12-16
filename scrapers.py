@@ -272,7 +272,7 @@ def multithreaded_execution_rottentomatoes(records):
     
     return rottentomatoes_df
 
-
+# @Function: Multithreaded execution to reduce runtime
 def multithreaded_execution_boxofficemojo(records):
     assert isinstance(records, list) # records must be a list
     assert len(records) > 0 # records cannot be empty
