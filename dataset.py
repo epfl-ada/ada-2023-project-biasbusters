@@ -16,7 +16,8 @@ def concatenate_folder(root):
             tmp = pd.read_excel(root + file)
         elif str(file).endswith('.csv'):
             tmp = pd.read_csv(root + file)
-        df_list.append(tmp)
+        if tmp is not None:
+            df_list.append(tmp)
     
     concat_df = pd.concat(df_list, axis=0).drop(columns=['Unnamed: 0']).drop_duplicates().reset_index(drop=True)
     concat_df = support.standardize_nan(concat_df)
