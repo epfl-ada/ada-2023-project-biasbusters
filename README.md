@@ -27,16 +27,36 @@ German Gavrilenko <br>
 6. Is there a discernable relationship between the characteristics of characters (age, gender, ethnicity, tropes) and the types of movies that receive awards and cultural/commercial success?
 7. Do movies with intricate plot structures or non-linear narratives tend to receive more cultural recognition?
 
-## Supplementary Datasets
+## Supplementary Datasets Utilized
 
-Much of our intended analysis is dependent of data not present in the CMU Movie Corpus dataset. We therefore plan to incorporate external data sources to supplement the plot features.
+In order to enhance our analysis, we integrated several external data sources with the CMU Movie Corpus dataset. These additional datasets allowed us to enrich our analysis with more comprehensive plot features and commercial and cultural metrics.
 
-### Commerical Metrics
-To create a score for commerical success, we will carefully choose variables that indicate how well a movie performed at the box office. These variables include box-office revenue, budget, ROI, and perhaps lifetime gross. As revenue is only available for ∼10% of the movies in CMU corpus, we plan to use  [<strong>The Movies Dataset</strong>](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) to access lifetime revenue and budget values for broader amount of movies.
+### Commercial Metrics
+We incorporated variables to create a score for commercial success. These variables include:
 
-## Cultural Metrics
-To assess a movie's cultural impact, we consider utilizing either absolute ratings from IMDb or sentiment analysis/polarity of movie reviews. This approach recognizes that significant cultural impact is not solely tied to positive acclaim but can also stem from controversial or polarizing content. To gather the necessary data, we will access the [<strong>IMDB Dataset of 50K Movie Reviews</strong>](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) and [<strong>MovieLens 20M Dataset
-</strong>](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset?select=rating.csv).
+- **Box-office Revenue**
+- **Budget**
+- **Return on Investment (ROI)**
+- **Lifetime Gross**
+
+For a broader range of movies, we utilized data from [**The Movies Dataset**](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset), which provided lifetime revenue and budget values, supplementing the limited revenue data in the CMU corpus.
+
+### Cultural Metrics
+To evaluate a movie's cultural impact, we employed two distinct approaches:
+
+1. **IMDb Ratings**: We considered absolute ratings from IMDb to gauge overall viewer reception and impact.
+
+2. **Sentiment Analysis of Movie Reviews**: We analyzed the polarity of movie reviews to understand the depth of a movie's cultural influence, acknowledging that significant impact can arise from both positive acclaim and controversial content.
+
+The data for these analyses were sourced from two datasets:
+
+- [**IMDB Dataset of 50K Movie Reviews**](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+- [**MovieLens 20M Dataset**](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset?select=rating.csv)
+
+This integration of supplementary datasets enriched our analysis, enabling a more holistic understanding of movies' commercial success and cultural impact.
+
+### Rotten tomatoes dataset
+### Boxoffice Mojo
 
 ## Project Methodology
 
