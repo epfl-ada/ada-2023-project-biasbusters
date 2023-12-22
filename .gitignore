@@ -1,5 +1,7 @@
 Data/imdb/title.ratings.tsv
 Data/imdb/title.basics.tsv
+Data/kaggle_movies_dataset/movies_metadata.csv
+*.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

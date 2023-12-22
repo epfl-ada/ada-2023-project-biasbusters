@@ -1,0 +1,334 @@
+,genres,count,community
+0,Drama,9065,1
+1,Comedy,5134,2
+2,Thriller,3498,3
+3,Romance Film,3250,0
+4,Action,2986,1
+5,World cinema,2574,1
+6,Indie,2186,4
+7,Horror,2104,3
+8,Crime Fiction,2082,3
+9,Action/Adventure,1881,1
+10,Adventure,1452,2
+11,Family Film,1416,2
+12,Romantic drama,1416,0
+13,Science Fiction,1254,3
+14,Musical,1144,2
+15,Romantic comedy,1144,0
+16,Fantasy,996,2
+17,Mystery,989,3
+18,Crime Thriller,893,3
+19,Period piece,795,1
+20,Animation,772,2
+21,Comedy-drama,769,0
+22,Bollywood,733,0
+23,Short Film,728,2
+24,Film adaptation,684,1
+25,Documentary,666,4
+26,Psychological thriller,654,3
+27,Comedy film,642,0
+28,Black comedy,559,3
+29,Teen,556,0
+30,War film,539,1
+31,LGBT,523,0
+32,Parody,499,2
+33,Coming of age,481,0
+34,Family Drama,464,0
+35,Television movie,447,1
+36,Cult,426,3
+37,Children's/Family,422,2
+38,Sports,416,0
+39,Slasher,395,3
+40,Biography,374,4
+41,Suspense,367,3
+42,Supernatural,337,3
+43,Western,331,1
+44,Japanese Movies,318,3
+45,Martial Arts Film,300,2
+46,Satire,295,0
+47,Biographical film,294,1
+48,Political drama,291,1
+49,Action Thrillers,260,3
+50,Children's,244,2
+51,B-movie,219,3
+52,Ensemble Film,213,0
+53,Music,208,4
+54,Slapstick,201,2
+55,Buddy film,199,0
+56,Chinese Movies,191,2
+57,Biopic [feature],189,1
+58,Gangster Film,188,3
+59,Gay Themed,187,0
+60,History,187,4
+61,Black-and-white,185,3
+62,Crime Drama,181,1
+63,Road movie,172,0
+64,Creature Film,171,3
+65,Sex comedy,170,0
+66,Costume drama,165,1
+67,Art film,161,0
+68,Melodrama,159,1
+69,Gay,158,0
+70,Gay Interest,157,0
+71,Culture & Society,154,4
+72,Docudrama,149,1
+73,Superhero movie,144,2
+74,Filipino Movies,137,1
+75,Horror Comedy,136,3
+76,Spy,135,3
+77,Zombie Film,134,3
+78,Children's Fantasy,133,2
+79,Historical fiction,128,1
+80,Disaster,128,3
+81,Crime Comedy,127,0
+82,Political cinema,125,4
+83,Family-Oriented Adventure,122,2
+84,Comedy of manners,121,0
+85,Fantasy Comedy,117,2
+86,Political thriller,109,3
+87,Computer Animation,108,2
+88,Erotic thriller,104,3
+89,Fantasy Adventure,103,2
+90,Domestic Comedy,102,0
+91,Detective,100,3
+92,Courtroom Drama,95,1
+93,Monster movie,94,3
+94,Heist,91,1
+95,Comedy of Errors,91,0
+96,Screwball comedy,88,0
+97,Action Comedy,82,2
+98,Erotica,80,0
+99,Natural horror films,79,3
+100,Animal Picture,77,2
+101,Detective fiction,77,3
+102,Social issues,76,4
+103,Musical Drama,73,0
+104,Superhero,71,2
+105,Erotic Drama,70,0
+106,Mockumentary,70,4
+107,Stop motion,68,2
+108,Doomsday film,68,3
+109,Adventure Comedy,67,2
+110,Sci-Fi Horror,66,3
+111,Dystopia,65,3
+112,Marriage Drama,65,0
+113,Epic,64,1
+114,Holiday Film,64,2
+115,Christian film,62,1
+116,Childhood Drama,61,1
+117,Alien Film,61,3
+118,Experimental film,60,0
+119,Slice of life story,59,0
+120,Anime,59,2
+121,Social problem film,56,0
+122,Chase Movie,55,3
+123,Time travel,55,2
+124,Americana,54,0
+125,New Hollywood,54,3
+126,Blaxploitation,52,1
+127,Sexploitation,51,1
+128,Remake,51,3
+129,Musical comedy,50,0
+130,Workplace Comedy,49,0
+131,Absurdism,49,0
+132,Dance,49,4
+133,Avant-garde,46,0
+134,Political satire,46,0
+135,Tragedy,45,1
+136,Comedy Thriller,44,3
+137,Caper story,44,1
+138,Feminist Film,43,0
+139,Neo-noir,43,3
+140,Surrealism,43,3
+141,Prison,43,1
+142,Adult,42,0
+143,Christmas movie,42,2
+144,Gross-out film,40,0
+145,Gross out,40,0
+146,Historical drama,40,1
+147,Media Satire,39,0
+148,Film noir,38,3
+149,Tamil cinema,37,1
+150,Haunted House Film,35,3
+151,Monster,35,3
+152,Revisionist Western,33,1
+153,Religious Film,32,2
+154,Glamorized Spy Film,32,3
+155,Tragicomedy,31,0
+156,Medical fiction,31,0
+157,Costume Adventure,31,1
+158,Auto racing,29,2
+159,Romantic fantasy,28,2
+160,Rockumentary,28,4
+161,Historical Epic,27,1
+162,Stoner film,27,0
+163,Costume Horror,27,3
+164,Boxing,27,1
+165,Sword and sorcery,26,2
+166,Comedy Western,26,2
+167,Sword and sorcery films,26,2
+168,Fairy tale,26,2
+169,Escape Film,25,1
+170,Animated cartoon,25,2
+171,Gothic Film,25,3
+172,Swashbuckler films,25,2
+173,Combat Films,25,1
+174,Airplanes and airports,24,3
+175,Hip hop movies,24,4
+176,Softcore Porn,22,0
+177,Sci-Fi Adventure,22,2
+178,Inspirational Drama,22,1
+179,Spaghetti Western,21,1
+180,Jungle Film,21,1
+181,Animated Musical,21,2
+182,Future noir,20,3
+183,Existentialism,20,3
+184,Apocalyptic and post-apocalyptic fiction,20,3
+185,Tollywood,20,1
+186,Addiction Drama,19,0
+187,Pornographic movie,18,0
+188,Juvenile Delinquency Film,18,1
+189,Law & Crime,18,4
+190,Hybrid Western,17,3
+191,Splatter film,17,3
+192,Whodunit,17,3
+193,Mythological Fantasy,16,2
+194,Beach Film,16,2
+195,Punk rock,16,4
+196,Master Criminal Films,15,3
+197,Wuxia,15,2
+198,Interpersonal Relationships,15,4
+199,Film,14,4
+200,Nature,14,4
+201,Biker Film,14,3
+202,Heavenly Comedy,14,2
+203,Illnesses & Disabilities,13,4
+204,Gender Issues,13,4
+205,Animals,12,4
+206,Crime,12,3
+207,Steampunk,12,3
+208,Travel,11,4
+209,Space western,11,2
+210,Comedy horror,11,3
+211,Roadshow theatrical release,10,1
+212,Stand-up comedy,10,4
+213,Anti-war,10,1
+214,Fan film,10,1
+215,Heaven-Can-Wait Fantasies,10,2
+216,Dogme 95,10,0
+217,Malayalam Cinema,10,1
+218,Hagiography,9,1
+219,Silent film,9,2
+220,Road-Horror,9,3
+221,British Empire Film,9,1
+222,Film à clef,9,0
+223,Extreme Sports,9,4
+224,Albino bias,9,3
+225,Outlaw biker film,9,3
+226,Anti-war film,8,1
+227,Educational,8,2
+228,Women in prison films,8,1
+229,Buddy cop,8,1
+230,Fantasy Drama,8,2
+231,Film & Television History,7,4
+232,Acid western,7,1
+233,Filipino,7,1
+234,Family & Personal Relationships,7,4
+235,Horse racing,6,2
+236,World History,6,4
+237,Cold War,6,3
+238,Environmental Science,6,4
+239,Reboot,6,2
+240,Kitchen sink realism,6,0
+241,Media Studies,6,4
+242,Jukebox musical,6,0
+243,Feature film,6,0
+244,Essay Film,6,4
+245,Science fiction Western,5,3
+246,Czechoslovak New Wave,5,0
+247,Bengali Cinema,5,0
+248,Indian Western,5,1
+249,Baseball,5,0
+250,Cavalry Film,5,1
+251,Psycho-biddy,5,3
+252,Outlaw,5,1
+253,Giallo,5,3
+254,Prison film,5,1
+255,Concert film,5,4
+256,Exploitation,5,1
+257,Parkour in popular culture,5,1
+258,British New Wave,5,0
+259,Samurai cinema,5,1
+260,Language & Literature,5,4
+261,Anthology,4,3
+262,Graphic & Applied Arts,4,4
+263,Sword and Sandal,4,1
+264,Gay pornography,4,0
+265,Epic Western,4,1
+266,Archives and records,4,3
+267,Finance & Investing,4,4
+268,Mumblecore,4,0
+269,Sci Fi Pictures original films,4,3
+270,Demonic child,4,3
+271,Movies About Gladiators,4,1
+272,News,4,4
+273,Cyberpunk,4,3
+274,Business,4,4
+275,Mondo film,4,4
+276,Foreign legion,3,1
+277,Vampire movies,3,3
+278,Gulf War,3,1
+279,Supermarionation,3,2
+280,Children's Entertainment,3,2
+281,School story,3,0
+282,Health & Fitness,3,4
+283,Legal drama,3,0
+284,Natural disaster,3,3
+285,Fictional film,3,1
+286,Space opera,3,2
+287,Propaganda film,3,1
+288,Instrumental Music,3,4
+289,Kafkaesque,3,3
+290,Humour,3,2
+291,Inventions & Innovations,3,4
+292,Bloopers & Candid Camera,3,4
+293,Computers,3,4
+294,Education,3,4
+295,Private military company,2,4
+296,Beach Party film,2,2
+297,Clay animation,2,2
+298,Bruceploitation,2,2
+299,Pinku eiga,2,3
+300,Plague,2,3
+301,Live action,2,2
+302,Sci-Fi Thriller,2,2
+303,Werewolf fiction,2,1
+304,Z movie,2,3
+305,Journalism,2,4
+306,Psychological horror,2,3
+307,Archaeology,2,3
+308,Conspiracy fiction,2,1
+309,Female buddy film,2,0
+310,Revisionist Fairy Tale,2,2
+311,Revenge,2,0
+312,Latino,2,1
+313,Courtroom Comedy,2,1
+314,Linguistics,1,4
+315,New Queer Cinema,1,1
+316,Film-Opera,1,1
+317,Alien invasion,1,3
+318,Ninja movie,1,1
+319,Nuclear warfare,1,3
+320,Period Horror,1,3
+321,Libraries and librarians,1,4
+322,Point of view shot,1,3
+323,Children's Issues,1,4
+324,Statutory rape,1,0
+325,Chick flick,1,2
+326,Pornography,1,1
+327,Homoeroticism,1,1
+328,Backstage Musical,1,1
+329,Singing cowboy,1,2
+330,Camp,1,1
+331,Breakdance,1,4
+332,Hardcore pornography,1,0
