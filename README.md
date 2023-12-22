@@ -1,6 +1,7 @@
 # From Red Carpets to Revenue Streams: Understanding the Dynamics of Film Accolades, Commerce, and Cultural Influence
 
 Datastory webpage: https://arundhatibala.github.io/ada-times/
+
 Datastory notebook: https://github.com/epfl-ada/ada-2023-project-biasbusters/blob/main/datastory.ipynb
 
 ## Abstract
