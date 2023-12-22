@@ -1,5 +1,7 @@
 # From Red Carpets to Revenue Streams: Understanding the Dynamics of Film Accolades, Commerce, and Cultural Influence
 
+Datastory: https://arundhatibala.github.io/ada-times/
+
 ## Abstract
 In the realm of cinematic expression, a tension often exists between artistic merit and commercial profitability. Acclaimed screenwriter Woody Allen famously said: “If my films don't show a profit, I know I'm doing something right.” Contrasting the financial success stories of Marvel movies, Allen's perspective raises a fundamental question: Are cultural and commercial successes inherently opposed in the movie industry?
 
@@ -7,20 +9,19 @@ Utilizing the CMU Movie Corpus Dataset, comprising of more than 40,000 plot summ
 
 ## Authors
 
+Hans Kristian Bjørgo Kværum <br>
 Arundhati Balasubramaniam <br>
+Semen Matrenok <br>
 Daniil Likhobaba <br>
 German Gavrilenko <br>
-Hans Kristian Bjørgo Kværum <br>
-Semen Matrenok <br>
 
 ## Table of Contents
 
 1. [Research Questions](#research-questions)
 2. [Supplementary Datasets](#supplementary-datasets)
 3. [Methods](#methods)
-4. [Timeline Proposal](#timeline-proposal)
-5. [Team Organisation](#team-organisation)
-6. [Questions for TAs](#questions-for-tas)
+4. [Team Organisation](#team-organisation)
+5. [Questions for TAs](#questions-for-tas)
 
 
 ## Research questions
@@ -67,39 +68,9 @@ From the plot summaries, we can extract characters and their features (age, gend
 ### Q7: Plot Complexity
 Analysing sentiment trajectory, text complexity (e.g: Flesch Reading Ease, Gunning Fog index), topic modelling and event detection, we could quantify a movie's complexity.
 
+## Team Contribution 
 
-## Timeline Proposal
-
-### Week 1: Data Preprocessing and Integration
-
-- Dataset: initial analysis, preprocessing and incorporating external data.
-- NLP: text cleaning, tokenization, and handle missing values in plot summaries.
-
-### Week 2: Feature Extraction and Correlation Analysis (:round_pushpin: We are here)
-
-- Complete feature extraction: keywords, tropes, and other features using NLP.
-- Prepare scores and features for analysis
-
-### Week 3: Deepen Correlation Analysis and Model Preparation
-
-- Calculate correlations between identified features and success metrics.
-- Generate visual representations for correlations.
-- Initiate model development: prepare features and start model training.
-
-### Week 4: Model Evaluation and Data Story Initiation
-
-- Evaluate model performance and tune hyperparameters.
-- Enhancing visual representations for inclusion in the data story.
-- Begin compiling project findings, insights, and visualizations into the initial structure of the data story.
-
-### Week 5: Data Story Finalization and Presentation Preparation
-
-- Complete data story by incorporating project findings, insights, and refined visualizations.
-- Review the data story on: credibility, validity, storytelling
-- Prepare/rehearse communication to articulate project methodologies, findings, and conclusions concisely.
-
-## (Tentative) Team Organisation 
-
-- Arundhati and Simon will work on the NLP methods, feature extraction using LLMs, and classification (under consideration).
-- Daniil and Hans Kristian will work on EDA, correlation metrics and classification (under consideration).
-- German will work on the presentation and data story.
+- Simon: extracting features from plots (`mood`, `target_audience`, `originality_score`, etc) using LLM, regression analysis for critics
+- Arundhati: scraping additional data from the Internet, presentation and data story
+- Hans Kristian: scraping additional data from the Internet; the main part of data story about graph communities
+- Daniil and German: regression analysis for revenue, imdb reviews, creating datastory notebook
