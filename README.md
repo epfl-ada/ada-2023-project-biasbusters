@@ -17,14 +17,6 @@ Semen Matrenok <br>
 Daniil Likhobaba <br>
 German Gavrilenko <br>
 
-## Table of Contents
-
-1. [Research Questions](#research-questions)
-2. [Supplementary Datasets](#supplementary-datasets)
-3. [Methods](#methods)
-4. [Team Organisation](#team-organisation)
-5. [Questions for TAs](#questions-for-tas)
-
 
 ## Research questions
 1. How do plot characteristics differ between films that receive critical acclaim and those that are popular with general audiences?
@@ -46,29 +38,38 @@ To create a score for commerical success, we will carefully choose variables tha
 To assess a movie's cultural impact, we consider utilizing either absolute ratings from IMDb or sentiment analysis/polarity of movie reviews. This approach recognizes that significant cultural impact is not solely tied to positive acclaim but can also stem from controversial or polarizing content. To gather the necessary data, we will access the [<strong>IMDB Dataset of 50K Movie Reviews</strong>](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) and [<strong>MovieLens 20M Dataset
 </strong>](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset?select=rating.csv).
 
-## Methodology
-As our project will follow a typical data science structure with data processing, feature extraction, feature engineering and model tuning, this section will mainly focus on how we plan to address the proposed research questions through our analysis.
+## Project Methodology
 
-### Q1: Plot Characteristics of Critically Acclaimed vs. Popular Films
-After succesfully extracting relevant plot features from the movie summaries (using an instruct tuned Llama 2 13B Chat model in zero- or few-shot learning manner), we would conduct a comparative analysis to explore similarity across features. Selecting movies based on their commercial and cultural rating, we could explore (genre-wise) how critically acclaimed movies differs from commercially focused ones.
+### 1. Community Detection with Louvain Method
+- Utilized the **Louvain method** to cluster movies based on their genre similarities, creating distinct communities.
 
-### Q2: Plot Praise/Critique
-Using sentiment analysis and topic modelling, we could analyse what aspects of a movie (plot, characters, visuals) reviews are most frequently concerned about. This should indicate how important the plot is for viewer perception. 
+### 2. Community Aggregation for Topic Modelling
+- Created a "document" for each community by **aggregating all genres** within that community.
 
-### Q3: Awards and Success
-Through our rating system, we could analyse the scores of winners and nominees across categories. By conducting hypothesis testing, we could for instance explore whether these awards are biased or neutral. 
+### 3. Data Preparation for Topic Modelling
+- Converted the aggregated genre data into a **term-frequency matrix**, making it suitable for topic modeling.
 
-### Q4: Genre/Theme Recognition in Awards 
-Building on the previous research question, we could analyse whether certain genres or prevalent movie themes are more prone to getting recognised by awards.
+### 4. Application of Latent Dirichlet Allocation (LDA)
+- Employed **LDA for topic modelling** to uncover underlying themes in each movie community.
 
-### Q5: Importance of Innovative Storytelling
-We could incorporate few methods of mapping movies to some metric space in order to estimate their originality. We could use some advanced LLMs from [<strong>Massive Text Embedding Benchmark (MTEB) Leaderboard</strong>](https://huggingface.co/spaces/mteb/leaderboard) to obtain embeddings for plot summaries. These embeddings are trained to meet metric space properties. As for plots and movies features extracted in the previous steps we could use some dimensionality reduction methods such as PCA and t-SNE and estimate distance between objects by utilising euclidean distance. Another method of estimating movies originality could imply the usage of LLM (e.g., the previously mentioned Llama 13B Chat) in order to predict the ending of the movies stories and then obtaining an originality score by estimation of the distances between predicted endings and the genuin ones. The distance could be computed between the corresponding text embeddings.
+### 5. Visualization and Interpretation
+- **Visualized and interpreted** the LDA results to label and define the communities, offering nuanced insights.
 
-### Q6: Character Diversity
-From the plot summaries, we can extract characters and their features (age, gender, ethnicity, tropes), and analyse whether certain characteristics are associated with successful movies.
+### 6. Hard-Assignment of Movies to Communities
+- Predominantly used **hard-assignment** for movies to communities based on a high probability threshold (above 0.5).
 
-### Q7: Plot Complexity
-Analysing sentiment trajectory, text complexity (e.g: Flesch Reading Ease, Gunning Fog index), topic modelling and event detection, we could quantify a movie's complexity.
+### 7. Linear Regression Evaluation and Implementation
+- Implemented a custom **linear regression function in log-space**.
+- Performed **K-fold cross-validation** with k=5 splits, focusing on Mean Squared Error (MSE) for model evaluation.
+- Calculated key metrics such as **average MSE, Root Mean Squared Logarithmic Error (RMSLE), and R-squared values**.
+
+### 8. Decision on Imputation Strategies
+- For 'audience_rating_count', chose **Linear Regression** over KNN due to better performance in capturing variance in log-transformed data.
+- For 'tomato_rating_count', selected the **best KNN model (k=108)** as it outperformed linear regression in both avg. MSE and R-squared in log space.
+
+### 9. Imputation of Missing Data
+- Applied **Linear Regression for imputing 'audience_rating_count'**.
+- Used **KNN with k=108 for imputing 'tomato_rating_count'**.
 
 ## Team Contribution 
 
