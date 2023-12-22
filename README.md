@@ -19,13 +19,22 @@ German Gavrilenko <br>
 
 
 ## Research questions
-1. How do plot characteristics differ between films that receive critical acclaim and those that are popular with general audiences?
-2. How frequent and passionately are movies praised or critiqued for their plot in movie reviews and critics?
-3. To what extent do awards like the Oscars and Golden Globes correlate with a movie's commercial or cultural success?
-4. Are there specific genres or themes that tend to receive more recognition in prestigious awards despite their commercial success or lack thereof?
-5. How do movies that introduce innovative storytelling techniques fare in terms of industry recognition, audience reception, and commercial success?
-6. Is there a discernable relationship between the characteristics of characters (age, gender, ethnicity, tropes) and the types of movies that receive awards and cultural/commercial success?
-7. Do movies with intricate plot structures or non-linear narratives tend to receive more cultural recognition?
+
+#### Defining Success in Film: An In-Depth Data Science Exploration
+
+In our ongoing data science project, we have refined our research questions to focus more succinctly on the core aspects of film success. These new questions are designed to dissect the multifaceted nature of success in the film industry, from critical acclaim to commercial profitability. Below are the newly formulated research questions:
+
+1. Plot Characteristics and Critical Acclaim (Q1: Regression Analysis): This question aims to analyze how plot characteristics influence critical acclaim. We plan to use regression analysis to determine the relationship between various plot elements and the critical response they receive. This analysis will help us understand if certain plot themes or structures are more likely to gain critical recognition.
+
+2. Revenue Analysis (Q2): Here, we focus on the commercial aspect, exploring the correlation between different movie characteristics and their box office success. This analysis will involve examining factors such as genre, star power, production budget, and release timing to see how they impact a film's revenue.
+
+3. Awards Analysis (Q3): This question seeks to understand the correlation between movies and their success in prestigious awards like the Oscars and Golden Globes. We will investigate whether specific genres, themes, or storytelling techniques are more likely to garner award nominations and wins.
+
+4. User Review Analysis (Q4): This aspect involves delving into audience perceptions, analyzing movie reviews from various platforms to gauge public opinion. The focus will be on understanding how often and passionately movies are praised or critiqued for their plot, and how this relates to their overall success.
+
+5. Originality Analysis (Q5): In this question, we explore the impact of originality and innovative storytelling on a movie's success. We aim to assess how movies that introduce new narrative techniques fare in terms of industry recognition, audience reception, and commercial performance.
+
+6. Regression analysis (Q6): in this part we analyse how do plot features affect critics acclaim, revenue and IMDB reviews
 
 ## Supplementary Datasets Utilized
 
