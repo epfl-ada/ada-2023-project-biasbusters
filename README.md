@@ -96,4 +96,4 @@ This integration of supplementary datasets enriched our analysis, enabling a mor
 - Simon: extracting features from plots (`mood`, `target_audience`, `originality_score`, etc) using LLM, regression analysis for critics
 - Arundhati: scraping additional data from the Internet, presentation and data story
 - Hans Kristian: scraping additional data from the Internet; the main part of data story about graph communities
-- Daniil and German: regression analysis for revenue, imdb reviews, creating datastory notebook
+- Daniil and German: regression analysis for revenue, imdb reviews, creating datastory notebook, critics analysis
