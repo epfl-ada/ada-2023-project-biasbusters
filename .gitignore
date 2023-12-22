@@ -1,3 +1,6 @@
+Data/imdb/title.ratings.tsv
+Data/imdb/title.basics.tsv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
