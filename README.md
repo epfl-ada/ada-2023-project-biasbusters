@@ -91,6 +91,8 @@ This integration of supplementary datasets enriched our analysis, enabling a mor
 - Applied **Linear Regression for imputing 'audience_rating_count'**.
 - Used **KNN with k=108 for imputing 'tomato_rating_count'**.
 
+### 10. Regression analysis for revenue, critics, reviews
+
 ## Team Contribution 
 
 - Simon: extracting features from plots (`mood`, `target_audience`, `originality_score`, etc) using LLM, regression analysis for critics
